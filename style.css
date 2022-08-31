@@ -485,6 +485,10 @@ body.dark .container3 > .sidebar3 {
 footer {
   background-color: rgb(255, 255, 255);
 }
+body.dark footer {
+  background: #222222;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
+}
 
 footer p {
   margin: 0;
@@ -714,6 +718,7 @@ body.dark .container2 > .div {
   .content .article h1,
 .content .article p {
     padding: 2px;
+    margin-bottom: 2px;
   }
   .content .article h1 {
     font-size: 20px;
@@ -965,5 +970,41 @@ body.dark .container3 > .div3 {
   }
   .container6 img:hover {
     transform: scale(1.1);
+  }
+  .container7 {
+    background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(4, 1fr);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    justify-content: space-evenly;
+    font-size: 12px;
+  }
+  .container7 .imgcontainer7 {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+  }
+  .container7 img {
+    width: 450px;
+    height: 100px;
+  }
+  .container7 .lista {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container7 .lista2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container7 .lista3 {
+    display: flex;
+    flex-direction: column;
   }
 }
